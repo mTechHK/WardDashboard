@@ -3,13 +3,6 @@
 </h3>
 
 ---
-
-### Original work 原作
-
-I am not the original author of Ward, I just finished the localization of Ward server panel, please support [the original work](https://github.com/B-Software/Ward)
-
-本人并不是Ward的原作者, 本人只是將Ward伺服器面板漢化, 請支持[原作](https://github.com/B-Software/Ward)
-
 ### About 關於
 
 Ward is a simple and and minimalistic server monitoring tool. Ward supports adaptive design system. Also it supports dark theme.
