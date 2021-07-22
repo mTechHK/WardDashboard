@@ -106,10 +106,10 @@ Ward 在所有流行的操作系統上運行良好，因為它使用 [OSHI](http
             Chart section display last fifteen seconds of server utilization. (Proccesor, ram, storage)
             You can hide separated datasets by clicking on rectangles on the top right corner of chart section.
             
-            此放塊包含正常運行時間和圖表部分。正常運行時間表示自上次在 Linux 上啟動以來的時間，在 Windows 上則是硬重置之間的時間。
-            它還有分頁器，可用與作者取得聯係。
-            圖表部分顯示最近十五秒的服務器利用率。 （處理器、內存、存儲）
-            您可以通過單擊圖表部分右上角的矩形來隱藏分離的數據集。
+此方塊包含正常運行時間和圖表部分。正常運行時間表示自上次在 Linux 上啟動以來的時間，在 Windows 上則是硬重置之間的時間。
+它還有分頁器，可用與作者取得聯係。
+圖表部分顯示最近十五秒的服務器利用率。 （處理器、內存、存儲）
+您可以通過單擊圖表部分右上角的矩形來隱藏分離的數據集。
 </table>
 
 ---
