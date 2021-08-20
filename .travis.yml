@@ -6,4 +6,4 @@ deploy:
 
   script: "mvn clean package"
 
-  skip_cleanup: false
+  cleanup: true
