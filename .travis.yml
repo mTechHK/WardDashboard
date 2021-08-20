@@ -1,16 +1,4 @@
-sudo: false
-
 language: java
-
-cache:
-
-  directories:
-
-  - "$HOME/.cache"
-
-before_install:
-
-  - cp .travis.settings.xml $HOME/.m2/settings.xml
 
 deploy:
 
