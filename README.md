@@ -150,15 +150,17 @@ Ward 在所有流行的操作系統上運行良好，因為它使用 [OSHI](http
     Build for Docker
 
     1. Clone the project
-    2. docker build --tag ward .
-    3. docker run --name ward -p 4000:4000 -p <application port>:<application port> ward
-    4. Go to localhost:4000 in web browser, input the same application port
-    5. If you get error after being redirected to application port try hitting refresh
+    2. Run `cd WardDashboard`
+    3. Run `docker build --tag ward .`
+    4. Run `docker run --name ward -p 8080:4000 -p <application port>:<application port> ward`
+    5. Go to `localhost:4000` in web browser, input the same application port
+    6. If you get error after being redirected to application port try hitting refresh
     
     Docker設置
     
-    1. 複製項目 (git clone https://github.com/miracl-cutelemon173/Ward)
-    2. 執行 docker build --tag ward .
-    3. 執行 docker run --name ward -p 8080:4000 -p <應用程序端口>:<應用程序端口> ward
-    4. 瀏覽器訪問localhost:8080，在'應用端口'輸入應用UI端口
-    5. 如果在重定向到應用程序端口後出現錯誤，請嘗試刷新
+    1. 複製項目 (git clone https://github.com/ItzMiracleOwO/WardDashboard)
+    2. 執行 `cd WardDashboard`
+    3. 執行 `docker build --tag ward .`
+    4. 執行 `docker run --name ward -p 8080:4000 -p <應用程序端口>:<應用程序端口> ward`
+    5. 瀏覽器訪問 `localhost:8080`，在'應用端口'輸入上面的應用程序端口
+    6. 如果在重定向到應用程序端口後出現錯誤，請嘗試刷新
