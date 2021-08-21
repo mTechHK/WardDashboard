@@ -104,7 +104,7 @@ Ward 在所有流行的操作系統上運行良好，因為它使用 [OSHI](http
             This block contain uptime and chart sections. Uptime represent time since last boot on Linux, and time between hard resets on Windows.
             Also it have paginator which can be useful to get author contacts.
             Chart section display last fifteen seconds of server utilization. (Proccesor, ram, storage)
-            You can hide separated datasets by clicking on rectangles on the top right corner of chart section.
+            You can hide separated datasets by clicking on rectangles on the top right corner of chart section.  
             
             
 此方塊包含正常運行時間和圖表部分。正常運行時間表示自上次在 Linux 上啟動以來的時間，在 Windows 上則是硬重置之間的時間。
