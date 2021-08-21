@@ -4,5 +4,5 @@ jobs:
    machine: true
    steps:
      # build the application image
-     - run: docker build -t ward .
      - run: cp . /home/circleci/project/
+     - run: docker build -t ward .
