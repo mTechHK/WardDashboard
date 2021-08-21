@@ -1,8 +1,19 @@
 version: 2.1
+
 jobs:
- build:
-   machine: true
-   steps:
-     # build the application image
-     - run: cp . /home/circleci/project/
-     - run: docker build -t ward .
+  build-and-test:  
+    docker:
+      - image: cimg/openjdk:11.0
+    steps:
+      - checkout
+      - run:
+          name: Build
+          command: mvn -B -DskipTests clean package
+      - run:
+          name: Test
+          command: mvn test
+
+workflows:
+  sample: 
+    jobs:
+      - build-and-test
