@@ -124,7 +124,7 @@
     --height-main-settings-underline: 0.313rem;
     --height-main-settings-select: 1.875rem;
     --height-theme-buttons-input: 2.188rem;
-    --height-button-squares-grid-div: 0.625rem;;
+    --height-button-squares-grid-div: 0.625rem;
     --height-port: 3.125rem;
     --height-submit: 1.875rem;
     --height-index-xl: 35.031rem;
@@ -204,7 +204,7 @@
     --width-chart-container: 42.625rem;
     --width-error-img: 19.313rem;
     --width-error-div: 23.875rem;
-    --width-advice: 23.875rem;;
+    --width-advice: 23.875rem;
 
     /* max-width */
     --max-width-setup: 71.250rem;
