@@ -4,8 +4,8 @@
 
 ---
 ### WardDashboard  
-![CodeFactor](https://img.shields.io/codefactor/grade/github/ItzMiracleOwO/WardDashboard/main?color=%23F44A6A&logo=codefactor&style=for-the-badge)
-
+![CodeFactor](https://img.shields.io/codefactor/grade/github/ItzMiracleOwO/WardDashboard/main?color=%23F44A6A&logo=codefactor&style=for-the-badge) ![Java
+](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=Java)  
 ### About 關於
 
 Ward is a simple and and minimalistic server monitoring tool. Ward supports adaptive design system. Also it supports dark theme.
