@@ -1,12 +1,8 @@
 # Base image with maven installed already
 FROM maven:3.6.3-jdk-8 as builder
 
-# Copy whole project inside docker
-COPY . .
-
 # Build project
 RUN mvn clean package
-
 
 # Base image containing OpenJDK 8, maintained by RedHat
 FROM openjdk:8-jre-alpine
