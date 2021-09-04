@@ -3,7 +3,7 @@
 </h3>
 
 ---
-### WardDashboard [![CodeFactor](https://www.codefactor.io/repository/github/mtechhk/warddashboard/badge)](https://www.codefactor.io/repository/github/mtechhk/warddashboard)  
+### WardDashboard [![CodeFactor](https://www.codefactor.io/repository/github/mtechhk/warddashboard/badge)](https://www.codefactor.io/repository/github/mtechhk/warddashboard?color=%23F44A6A&logo=codefactor&style=for-the-badge)  
 ### About 關於
 
 Ward is a simple and and minimalistic server monitoring tool. Ward supports adaptive design system. Also it supports dark theme.
