@@ -3,7 +3,7 @@
 </h3>
 
 ---
-### WardDashboard [![CodeFactor](https://www.codefactor.io/repository/github/mtechhk/warddashboard/badge)](https://www.codefactor.io/repository/github/mtechhk/warddashboard)  
+### WardDashboard [![CodeFactor](https://www.codefactor.io/repository/github/itzmiracleowo/warddashboard/badge)](https://www.codefactor.io/repository/github/itzmiracleowo/warddashboard)
 
 ### About 關於
 
