@@ -124,7 +124,7 @@ Ward 在所有流行的操作系統上運行良好，因為它使用 [OSHI](http
 
     1. Clone the project
     2. Import project in your IDE as Maven project
-    3. mvn clean package
+    3. Run mvn clean package
     4. jar will be in the target folder
     
     創建你自己的 Jar
