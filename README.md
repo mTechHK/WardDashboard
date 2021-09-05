@@ -12,11 +12,11 @@ Ward is a simple and and minimalistic server monitoring tool. Ward supports adap
 It shows only principal information and can be used, if you want to see nice looking dashboard instead looking on bunch of numbers and graphs.
 Ward works nice on all popular operating systems, because it uses [OSHI](https://github.com/oshi/oshi).
 
-Ward 是一個簡單而簡約的服務器監控工具。 Ward 支持自適應設計系統。它還支持深色主題。
-它只顯示主要信息並且可以使用，如果你想看到漂亮的儀表板而不是查看一堆數字和圖表。
+Ward 是一個簡單而簡約的服務器監控工具。 Ward 支持自適應設計系統。而且它還支持深色主題。
+如果你想看到的知識漂亮的儀表板而不是查看一堆數字和圖表，它只會顯示主要信息。
 Ward 在所有流行的操作系統上運行良好，因為它使用 [OSHI](https://github.com/oshi/oshi).
 
-**已經測試過的系統:** `Windows` `Linux`
+**已經測試過的系統:** `Windows 環境下的 Docker` `Windows 環境下的 Java` `Linux 環境下的 Docker` `Linux 環境下的 Java` `MacOS 環境下的 Docker`
 
 <p align = "center">
     <img src = "https://steamuserimages-a.akamaihd.net/ugc/1601547572022736987/1D8D2E576D957DDB9CE34E13D5944AF841E8AAD8/" alt = "Preview Image" />
