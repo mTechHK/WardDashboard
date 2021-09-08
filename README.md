@@ -13,7 +13,7 @@ Ward works well on all popular operating systems, because it uses [OSHI](https:/
 
 Ward 是一個簡單而簡約的服務器監控工具。 Ward 支持自適應設計系統。而且它還支持深色主題。
 如果你想看到的知識漂亮的儀表板而不是查看一堆數字和圖表，它只會顯示主要信息。
-Ward 在所有流行的操作系統上運行良好，因為它使用 [OSHI](https://github.com/oshi/oshi).
+Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](https://github.com/oshi/oshi).
 
 **已經測試過的系統:** `Windows 環境下的 Docker` `Windows 環境下的 Java` `Linux 環境下的 Docker` `Linux 環境下的 Java` `MacOS 環境下的 Docker`
 
