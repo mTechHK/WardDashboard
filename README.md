@@ -50,22 +50,22 @@ if you test on your platform please update this document and send a pull request
 
 <table>
     <tr>
-        <td width = "600.5">操作系統以及版本</td>
+        <td width = "600.5">Operating system and version</td>
         <td rowspan = "5">
             <img src = "https://steamuserimages-a.akamaihd.net/ugc/1601547572022744630/F9E0CACAA81C882B2F4E401E65090BE9F1FE96F6/" alt = "Card 2" align = "center" />
         </td>
     </tr>
     <tr>
-        <td>内存使用量</td>
+        <td>Memory usage</td>
     </tr>
     <tr>
-        <td>内存總量</td>
+        <td>Total memory</td>
     </tr>
     <tr>
-        <td>内存代數</td>
+        <td>Memory algebra</td>
     </tr>
     <tr>
-        <td>執行中的程序數量</td>
+        <td>Number of programs in execution</td>
     </tr>
 </table>
 
@@ -79,16 +79,16 @@ if you test on your platform please update this document and send a pull request
         </td>
     </tr>
     <tr>
-        <td>硬盤使用量</td>
+        <td>disk usage</td>
     </tr>
     <tr>
-        <td>硬盤總容量</td>
+        <td>Total disk space</td>
     </tr>
     <tr>
-        <td>硬盤數量</td>
+        <td>Number of drives</td>
     </tr>
     <tr>
-        <td>虛擬内存總量(Linux系統中的) </td>
+        <td>Total amount of virtual memory (in Linux system) </td>
     </tr>
 </table>
 
