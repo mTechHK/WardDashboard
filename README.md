@@ -1,6 +1,7 @@
 <h3 align = "center">
     <img src = "https://steamuserimages-a.akamaihd.net/ugc/1297549742976925024/97F3CBA92B2FEF3652F5A06EC90FB5FF89E5D224/" alt = "Logo" />
 </h3>
+
 # [chinese](https://github.com/ItzMiracleOwO/WardDashboard/blob/main/zh-README.md)
 
 ---
