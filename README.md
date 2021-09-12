@@ -13,33 +13,9 @@ Ward 是一個簡單而簡約的服務器監控工具。 Ward 支持自適應設
 如果你想看到的知識漂亮的儀表板而不是查看一堆數字和圖表，它只會顯示主要信息。
 Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](https://github.com/oshi/oshi).
 
-**已經測試過的系統:** `Windows 環境下的 Docker` `Windows 環境下的 Java` `Linux 環境下的 Docker` `Linux 環境下的 Java` `MacOS 環境下的 Docker`
+**已經測試過的系統:**  
 
-<table>
-  <tr>
-    <th>平台</th>
-    <th>Java 8</th> 
-    <th>Docker</th>
-  </tr>
-  <tr>
-    <td>Widows</td>
-    <td>macOs</td> 
-    <td>Linux Ubuntu</td>
-  </tr>
-  <tr>
-    <td>✅</td>
-    <td>✅</td> 
-    <td>✅</td>
-  </tr>
-    <td>✅</td>
-    <td>✅</td> 
-    <td>✅</td>
-  </tr>
-  <td>✅</td>
-    <td>❓</td> 
-    <td>✅</td>
-  </tr>
-</table>
+
 
 如果您在其它的系統上進行了測試并且成功運行，請通過建立 PR 告訴我們!
 
