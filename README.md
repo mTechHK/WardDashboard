@@ -115,7 +115,7 @@ Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](http
     
     創建你自己的 Jar
 
-    1. 複製項目 (git clone https://github.com/miracl-cutelemon173/Ward)
+    1. 複製項目 (git clone https://github.com/ItzMiracleOwO/WardDashboard)
     2. 將 IDE 中將項目以 Maven 項目導入
     3. 執行 mvn clean package
     4. jar 將在目標文件夾中自動創建
