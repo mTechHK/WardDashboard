@@ -4,7 +4,7 @@
 
 ---
 # Ward Dashboard
-> ## this is a fork for [ward](https://github.com/B-Software/Ward) use MIT LICENSE
+> ## this is a fork for [ward](https://github.com/B-Software/Ward) use [MIT LICENSE](https://github.com/B-Software/Ward/blob/master/LICENSE)
 
 
 
