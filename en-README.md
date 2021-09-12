@@ -16,13 +16,13 @@ Ward is a simple and and minimalistic server monitoring tool. Ward supports adap
 It shows only principal information and can be used, if you want to see nice looking dashboard instead looking on bunch of numbers and graphs.
 Ward works well on all popular operating systems, because it uses [OSHI](https://github.com/oshi/oshi).
 
-**Platform have test:**
+**Platform have beeb tested:**
 
-system|java|Docker
+System|Java|Docker
 ---|---|---
-windows| ✅ |✅
-linux|✅|✅
-Macox|❓|✅
+Windows| ✅ |✅
+Linux|✅|✅
+macOx|❓|✅
 
 If you test on your platform please send a PR to us!
 
