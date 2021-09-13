@@ -227,11 +227,11 @@
     --border-chart-container: 0.063rem;
 
     /* border-width */
-    --border-width-chart-triangle-grid-div: 0.438rem 0.438rem 0.000rem 0.438rem;
+    --border-width-chart-triangle-grid-div: 0.438rem 0.438rem 0 0.438rem;
 
     /* border-radius */
     --border-radius-setup-div: 1.250rem;
-    --border-radius-port: 0.000rem 0.000rem 0.625rem 0.625rem;
+    --border-radius-port: 0 0 0.625rem 0.625rem;
     --border-radius-card: 1.250rem;
     --border-radius-hw-logo: 50%;
     --border-radius-card-footer-dots-grid-div: 50%;
