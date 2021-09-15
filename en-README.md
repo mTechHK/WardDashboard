@@ -14,27 +14,25 @@ It shows only principal information and can be used, if you want to see nice loo
 Ward works well on all popular operating systems, because it uses [OSHI](https://github.com/oshi/oshi).
 
 **Platform tested:** 
-
 <table>
   <tr>
-    <th>平台</th>
+    <th>
+    <th>Platform</th>
     <th>Java 8</th> 
     <th>Docker</th>
   </tr>
   <tr>
     <td>Widows</td>
-    <td>macOs</td> 
-    <td>Linux Ubuntu</td>
-  </tr>
-  <tr>
     <td>✅</td>
     <td>✅</td> 
     <td>✅</td>
   </tr>
+    <td>macOS</td>
     <td>✅</td>
     <td>✅</td> 
     <td>✅</td>
   </tr>
+  <td>Linux Ubuntu</td>
   <td>✅</td>
     <td>❓</td> 
     <td>✅</td>
