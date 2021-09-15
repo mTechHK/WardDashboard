@@ -26,6 +26,7 @@ Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](http
     <td>Linux Ubuntu</td>
   </tr>
   <tr>
+    <td>Widows</td>
     <td>✅</td>
     <td>✅</td> 
     <td>✅</td>
