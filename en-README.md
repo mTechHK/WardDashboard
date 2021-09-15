@@ -17,7 +17,6 @@ Ward works well on all popular operating systems, because it uses [OSHI](https:/
 <table>
   <tr>
     <th>
-    <th>Platform</th>
     <th>Java 8</th> 
     <th>Docker</th>
   </tr>
@@ -29,12 +28,12 @@ Ward works well on all popular operating systems, because it uses [OSHI](https:/
   </tr>
     <td>macOS</td>
     <td>✅</td>
-    <td>✅</td> 
+    <td>❓</td> 
     <td>✅</td>
   </tr>
   <td>Linux Ubuntu</td>
   <td>✅</td>
-    <td>❓</td> 
+    <td>✅</td> 
     <td>✅</td>
   </tr>
 </table>
