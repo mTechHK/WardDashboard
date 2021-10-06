@@ -4,13 +4,11 @@
 
 ---
 ### Ward Dashboard
-<details>
-  <summary>More Info</summary>
+More Info
 > [![WardDa5h](https://github-readme-stats.vercel.app/api/pin/?username=ItzMiracleOwO&repo=WardDashboard&show_icons=true&bg_color=23272A&title_color=FF73F1&text_color=FFC0CB&icon_color=9B84EE&count_private=true&border_color=fAA61A&border_radius=10)](https://github.com/ItzMiracleOwO/WardDashboard)  
 > ![CodeFactor](https://img.shields.io/codefactor/grade/github/ItzMiracleOwO/WardDashboard/main?color=%23F44A6A&logo=codefactor&style=for-the-badge) ![codeL](https://img.shields.io/tokei/lines/github/ItzMiracleOwO/WardDashboard?style=for-the-badge) ![commit](https://img.shields.io/github/last-commit/ItzMiracleOwO/WardDashboard?color=%23181717&logo=GitHub&style=for-the-badge) ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=Java) ![html](https://img.shields.io/badge/html-red?style=for-the-badge) ![css](https://img.shields.io/badge/css-blue?style=for-the-badge)  
 > [Chinese | 中文](https://github.com/ItzMiracleOwO/WardDashboard/blob/main/zh-README.md)  
-> [Original work | 原作品](https://github.com/B-Software/Ward)
-</details>
+> [Original work | 原作品](https://github.com/B-Software/Ward)  
 
 
 Ward is a simple and and minimalistic server monitoring tool. Ward supports adaptive design system. Also it supports dark theme.
