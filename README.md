@@ -4,7 +4,7 @@
 
 ---
 ### Ward Dashboard
-  <summary>更多資料</summary>
+
 > [![WardDa5h](https://github-readme-stats.vercel.app/api/pin/?username=ItzMiracleOwO&repo=WardDashboard&show_icons=true&bg_color=23272A&title_color=FF73F1&text_color=FFC0CB&icon_color=9B84EE&count_private=true&border_color=fAA61A&border_radius=10)](https://github.com/ItzMiracleOwO/WardDashboard)  
 > ![CodeFactor](https://img.shields.io/codefactor/grade/github/ItzMiracleOwO/WardDashboard/main?color=%23F44A6A&logo=codefactor&style=for-the-badge) ![codeL](https://img.shields.io/tokei/lines/github/ItzMiracleOwO/WardDashboard?style=for-the-badge) ![commit](https://img.shields.io/github/last-commit/ItzMiracleOwO/WardDashboard?color=%23181717&logo=GitHub&style=for-the-badge) ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=Java) ![html](https://img.shields.io/badge/html-red?style=for-the-badge) ![css](https://img.shields.io/badge/css-blue?style=for-the-badge)  
 > [英文 | English](https://github.com/ItzMiracleOwO/WardDashboard/blob/main/en-README.md)  
