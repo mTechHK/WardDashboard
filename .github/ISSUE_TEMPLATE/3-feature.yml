@@ -1,0 +1,23 @@
+name: "✨ 新功能"
+description: 提議新功能來幫助我們變得更好！
+body:
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: 你希望有什麽功能？
+      description: 對於功能清晰的描述
+      placeholder: 我希望機器人可以...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 為什麼？
+      description: 請告訴我們原因！
+      placeholder: 因為...
+  - type: textarea
+    id: other
+    attributes:
+      label: 其他細節
+      placeholder: 有任何其他細節嗎？
