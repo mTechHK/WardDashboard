@@ -1,0 +1,52 @@
+name: "📦 安裝時發生的問題"
+description: 安裝機器人時發生的問題
+labels: ['topic: installation']
+body:
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: 當前行為
+      description: 包括螢幕截圖、堆疊追蹤、審核日誌、執行過的安裝指令等的描述。
+      placeholder: 當我嘗試安裝...
+    validations:
+      required: true
+      
+  - type: textarea
+    id: debug-logs
+    attributes:
+      label: 終端輸出
+      description: 終端輸出的螢幕截圖或是直接貼上
+      placeholder: 輸出
+  
+  - type: dropdown
+    id: package-manager
+    attributes:
+      label: 使用的軟體套件管理系統
+      options:
+        - npm
+        - yarn
+        - pnpm
+        - cnmp
+        - Others
+    validations:
+      required: true
+      
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: 作業系統
+      options:
+        - Linux (Ubuntu)
+        - Linux (CentOS)
+        - Linux (Others)
+        - Mac
+        - Windows
+        - Others
+    validations:
+      required: true
+  - type: textarea
+    id: other
+    attributes:
+      label: 其他細節
+      placeholder: 有任何其他細節嗎？
