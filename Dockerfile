@@ -9,7 +9,7 @@ WORKDIR /
 RUN mvn clean package
 
 # Base image containing OpenJDK 8, maintained by RedHat
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-ea-22-oraclelinux8
 
 # Update apt repo and install sudo package
 RUN apk update && \
