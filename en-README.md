@@ -23,7 +23,7 @@ Ward works well on all popular operating systems, because it uses [OSHI](https:/
     <th>Docker</th>
   </tr>
   <tr>
-    <td>Widows</td>
+    <td>Windows</td>
     <td>✅</td>
     <td>✅</td> 
     <td>✅</td>
