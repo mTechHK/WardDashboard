@@ -17,7 +17,7 @@
     <!-- project properties -->
     <properties>
         <oshiVersion>5.8.2</oshiVersion>
-        <jnaVersion>5.6.0</jnaVersion>
+        <jnaVersion>5.9.0</jnaVersion>
         <lombokVersion>1.18.22</lombokVersion>
         <ini4jVersion>0.5.4</ini4jVersion>
     </properties>
