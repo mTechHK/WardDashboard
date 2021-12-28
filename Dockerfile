@@ -3,10 +3,11 @@ FROM maven:3.6.3-jdk-8 as builder
 
 # Copy whole project inside docker
 RUN apt-get install git curl wget
-RUN git clone https://github.com/ItzMiracleOwO/WardDashboard && cd WardDashboard
+RUN git clone https://github.com/ItzMiracleOwO/WardDashboard
 WORKDIR /
 
 # Build project
+RUN cd WardDashboard
 RUN mvn clean package
 
 # Base image containing OpenJDK 8, maintained by RedHat
