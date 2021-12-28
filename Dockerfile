@@ -15,8 +15,8 @@ RUN mvn clean package
 FROM openjdk:17-ea-22-oraclelinux8
 
 # Copy jar and pom from builder image to working directory
-COPY --from=builder target/*.jar /ward.jar
-COPY --from=builder pom.xml /pom.xml
+COPY --from=builder /WardDashboard/target/*.jar /ward.jar
+COPY --from=builder /WardDashboard/pom.xml /pom.xml
 
 EXPOSE 4000
 EXPOSE 4001
