@@ -1,6 +1,7 @@
+language: java
+
 deploy:
-  language: java
   - provider: script
-    script: mvn clean package
+    script: "mvn clean package"
     on:
       branch: main
