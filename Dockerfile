@@ -13,9 +13,7 @@ RUN mvn clean package
 FROM openjdk:17-ea-22-oraclelinux8
 
 # Update apt repo and install sudo package
-RUN apk update && \
-    apk add --no-cache dmidecode eudev && \
-    rm -rf /var/cache/apk/*
+RUN apt-get update && apt upgrade
 
 # Copy jar and pom from builder image to working directory
 COPY --from=builder target/*.jar /ward.jar
