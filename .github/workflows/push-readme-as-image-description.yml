@@ -13,7 +13,7 @@ jobs:
           DOCKER_USER: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASS: ${{ secrets.DOCKER_PASSWORD }}
         with:
-          destination_container_repo: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+          destination_container_repo: ${{ secrets.DOCKER_USERNAME }}/warddashboard
           provider: dockerhub
           short_description: 'WardDashboard in Chinese!'
           readme_file: 'README.md'
