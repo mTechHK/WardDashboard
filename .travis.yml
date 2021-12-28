@@ -1,9 +1,6 @@
-language: java
-
 deploy:
-
-  provider: script
-
-  script: "mvn clean package"
-
-  cleanup: true
+  - provider: script
+    script: mvn clean package
+    skip_cleanup: true
+    on:
+      branch: master
