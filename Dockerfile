@@ -2,7 +2,8 @@
 FROM maven:3.6.3-jdk-8 as builder
 
 # Copy whole project inside docker
-COPY . .
+RUN apt-get install git curl wget
+RUN git clone https://github.com/ItzMiracleOwO/WardDashboard && cd WardDashboard
 WORKDIR /
 
 # Build project
@@ -21,6 +22,7 @@ COPY --from=builder target/*.jar /ward.jar
 COPY --from=builder pom.xml /pom.xml
 
 EXPOSE 4000
+EXPOSE 4001
 
 # Run jar as sudo user on entry point
 ENTRYPOINT java -jar ward.jar
