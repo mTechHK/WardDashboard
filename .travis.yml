@@ -1,4 +1,5 @@
 deploy:
+  language: java
   - provider: script
     script: mvn clean package
     on:
