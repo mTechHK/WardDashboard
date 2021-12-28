@@ -7,7 +7,7 @@ RUN git clone https://github.com/ItzMiracleOwO/WardDashboard
 
 # Build project
 RUN ls -lah
-RUN cd WardDashboard
+WORKDIR "/WardDashboard"
 RUN ls -lah
 RUN mvn clean package
 
