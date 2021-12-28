@@ -1,6 +1,5 @@
 deploy:
   - provider: script
     script: mvn clean package
-    skip_cleanup: true
     on:
-      branch: master
+      branch: main
