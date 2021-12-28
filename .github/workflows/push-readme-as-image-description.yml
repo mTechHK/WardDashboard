@@ -1,21 +1,19 @@
-name: Update Docker Hub Description
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - README.md
-      - .github/workflows/push-readme-as-image-description.yml
+name: Push README to Docker Hub
+on: push
 jobs:
-  dockerHubDescription:
+  PushContainerReadme:
     runs-on: ubuntu-latest
+    name: Push README to Docker Hub
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Docker Hub Description
-      uses: peter-evans/dockerhub-description@v2
-      with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_PASSWORD }}
-        repository: peterevans/dockerhub-description
-        short-description: ${{ github.event.repository.description }}
+      - name: git checkout
+        uses: actions/checkout@v2
+      - name: push README to Dockerhub
+        uses: christian-korneck/update-container-description-action@v1
+        env:
+          DOCKER_USER: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASS: ${{ secrets.DOCKER_PASSWORD }}
+        with:
+          destination_container_repo: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+          provider: dockerhub
+          short_description: 'WardDashboard in Chinese!'
+          readme_file: 'README.md'
