@@ -1,5 +1,5 @@
-name: Publish package to the Maven Central Repository and GitHub Packages
-on: [push]
+name: Publish to docker hub
+on: push
 
 jobs:
   publish:
