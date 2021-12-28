@@ -12,9 +12,6 @@ RUN mvn clean package
 # Base image containing OpenJDK 8, maintained by RedHat
 FROM openjdk:17-ea-22-oraclelinux8
 
-# Update apt repo and install sudo package
-RUN yum -y upgrade
-
 # Copy jar and pom from builder image to working directory
 COPY --from=builder target/*.jar /ward.jar
 COPY --from=builder pom.xml /pom.xml
