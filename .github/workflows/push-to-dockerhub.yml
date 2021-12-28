@@ -43,7 +43,7 @@ jobs:
         uses: nanzm/get-time-action@v1.1
         with:
           timeZone: 8
-          format: 'YYYY-MM-DD-HH-mm-ss'
+          format: 'YYYY-MM-DD-HH-mm'
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action
