@@ -1,5 +1,8 @@
 name: Publish to docker hub
-on: push
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
