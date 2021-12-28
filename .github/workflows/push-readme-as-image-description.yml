@@ -5,7 +5,7 @@ on:
       - main
     paths:
       - README.md
-      - .github/workflows/dockerhub-description.yml
+      - .github/workflows/push-readme-as-image-description.yml
 jobs:
   dockerHubDescription:
     runs-on: ubuntu-latest
