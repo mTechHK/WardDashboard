@@ -1,3 +1,4 @@
+name: Java Linter
 on: [push]
 
 jobs:
