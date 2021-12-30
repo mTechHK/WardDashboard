@@ -21,23 +21,19 @@ Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](http
 <table>
   <tr>
     <th>
-    <th>平台</th>
     <th>Java 8</th> 
     <th>Docker</th>
   </tr>
   <tr>
     <td>Windows</td>
-    <td>✅</td>
     <td>❌</td> 
     <td>✅</td>
   </tr>
     <td>macOS</td>
-    <td>✅</td>
     <td>❌</td> 
     <td>✅</td>
   </tr>
   <td>Linux Ubuntu</td>
-  <td>✅</td>
     <td>❌</td> 
     <td>✅</td>
   </tr>
