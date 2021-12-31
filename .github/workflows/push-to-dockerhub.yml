@@ -19,9 +19,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-        
-      - name: Fetch release version
-        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:10})
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
@@ -48,5 +45,5 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ env.RELEASE_VERSION }}
+          tags: ${GITHUB_REF:10}
           labels: ${{ steps.meta.outputs.labels }}
