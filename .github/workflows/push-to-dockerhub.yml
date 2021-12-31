@@ -16,10 +16,6 @@ jobs:
       contents: read
       packages: write
 
-    steps:
-      - name: Get release tag
-        run: echo "TAG=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
-
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -32,6 +28,17 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
+          
+      - name: Extract release tag
+      - uses: actions/checkout@v1
+        id: tag
+        run: echo ::set-output name=tag::${GITHUB_REF:10}
+      - name: Check output
+        env:
+          RELEASE_VERSION: ${{ steps.tag.outputs.tag }}
+        run: |
+          echo $RELEASE_VERSION
+          echo ${{ steps.vars.outputs.tag }}
 
       # Extract metadata (tags, labels) for Docker
       # https://github.com/docker/metadata-action
@@ -48,5 +55,5 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ${{ env.TAG }}
+          tags: ${{ steps.vars.outputs.tag }}
           labels: ${{ steps.meta.outputs.labels }}
