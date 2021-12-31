@@ -26,19 +26,18 @@ Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](http
   </tr>
   <tr>
     <td>Windows</td>
-    <td>❌</td> 
+    <td>✅</td> 
     <td>✅</td>
   </tr>
     <td>macOS</td>
-    <td>❌</td> 
+    <td>✅</td> 
     <td>✅</td>
   </tr>
   <td>Linux Ubuntu</td>
-    <td>❌</td> 
+    <td>✅</td> 
     <td>✅</td>
   </tr>
 </table>
-Java 8 **在任何系統上都沒有運作** 我們不知道為什麼，在我們修復這個漏洞之前，請使用 docker!
 
 如果您在其它的系統上進行了測試并且成功運行，請通過建立 PR 告訴我們!
 
