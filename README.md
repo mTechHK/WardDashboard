@@ -145,27 +145,21 @@ Java 8 **在任何系統上都沒有運作** 我們不知道為什麼，在我�
     1. 安裝 Docker (https://docs.docker.com/get-docker/)
     2. 開啓 Docker
     3. 使用終端機執行以下指令
-    docker run --name ward -p 4000:4000 -p <應用程序端口>:<應用程序端口> miraclecutelemon/warddashboard:main-<發佈日期/時間>
+    docker run --name ward -p 4000:4000 -p <應用程序端口>:<應用程序端口> miraclecutelemon/warddashboard:<版本號>
     例子:
-    docker run --name ward -p 4000:4000 -p 4041:4041 miraclecutelemon/warddashboard:main-2021-12-28-20-39
-    將會拉取在2021-12-28 20:39 發佈的版本
+    docker run --name ward -p 4000:4000 -p 4041:4041 miraclecutelemon/warddashboard:1.0.1
+    將會拉取版本 1.0.1
+    
     詳情請看 https://hub.docker.com/repository/docker/miraclecutelemon/warddashboard/
     5. 瀏覽器訪問 `localhost:8080`，在'應用端口'輸入上面的應用程序端口
     6. 如果在重定向到應用程序端口後出現錯誤，請嘗試刷新，如果稍後之後仍然失敗，請開啓issue告訴我們!
     
 <br>
     
-    創建你自己的 Jar
-
-    1. 複製項目 (git clone https://github.com/ItzMiracleOwO/WardDashboard)
-    2. 將 IDE 中將項目以 Maven 項目導入
-    3. 執行 mvn clean package
-    4. jar 將在目標文件夾中自動創建
-
-<br>
+    直接運行 .jar
     
-    運行jar文件
-
-    1. 如上所述創建您自己的 jar 檔案
-    2. 在Windows或Linux上以管理權限執行jar
-    3. 輸入 localhost:4000 並設置應用程序
+    1. 在 https://github.com/ItzMiracleOwO/WardDashboard/releases 下載 .jar 檔案
+    2. 下載 jdk (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+    3. 開啓cmd, 進入檔案所在的目錄
+    4. 執行 java -jar ward.jar
+    5. 用瀏覽器訪問 localhost:4000 進行配置, 配置完成後將會自動重新導向! 
