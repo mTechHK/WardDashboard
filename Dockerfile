@@ -6,7 +6,6 @@ RUN apt-get install git curl wget
 RUN git clone https://github.com/ItzMiracleOwO/WardDashboard
 
 # Build project
-RUN ls -lah
 WORKDIR "/WardDashboard"
 RUN ls -lah
 RUN mvn clean package
