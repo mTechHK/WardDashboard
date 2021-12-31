@@ -3,6 +3,7 @@ name: Build and Publish Docker Image
 on:
   release:
     types: [published, released, edited, created]
+  workflow_dispatch:
       
 env:
   REGISTRY: docker.io
