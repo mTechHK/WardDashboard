@@ -2,7 +2,7 @@ name: Build and Publish Docker Image
 
 on:
   release:
-    types: [published, released, edited]
+    types: [published, released, edited, created]
       
 env:
   REGISTRY: docker.io
