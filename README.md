@@ -145,10 +145,10 @@ Java 8 **在任何系統上都沒有運作** 我們不知道為什麼，在我�
     1. 安裝 Docker (https://docs.docker.com/get-docker/)
     2. 開啓 Docker
     3. 使用終端機執行以下指令
-    docker run --name ward -p 4000:4000 -p <應用程序端口>:<應用程序端口> miraclecutelemon/warddashboard:<版本號>
+    docker run --name ward -p 4000:4000 -p <應用程序端口>:<應用程序端口> miraclecutelemon/warddashboard:main-<發佈日期/時間>
     例子:
-    docker run --name ward -p 4000:4000 -p 4041:4041 miraclecutelemon/warddashboard:1.0.1
-    將會拉取版本 1.0.1
+    docker run --name ward -p 4000:4000 -p 4041:4041 miraclecutelemon/warddashboard:main-2021-12-28-20-39
+    將會拉取在2021-12-28 20:39 發佈的版本
     
     詳情請看 https://hub.docker.com/repository/docker/miraclecutelemon/warddashboard/
     5. 瀏覽器訪問 `localhost:8080`，在'應用端口'輸入上面的應用程序端口
