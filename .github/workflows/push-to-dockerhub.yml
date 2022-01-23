@@ -9,7 +9,7 @@ on:
 
 env:
   APP_NAME: ${{ github.event.repository.name }}
-  DOCKERHUB: ${{ github.event.repository.name }}
+  DOCKERHUB_REPO: miraclecutelemon/warddashboard
   IMAGE_NAME: ${{ github.event.repository.name }}
 
 jobs:
@@ -63,4 +63,4 @@ jobs:
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
 
-          tags: ${{ steps.meta.outputs.labels }}/${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+          tags: ${{ env.DOCKERHUB_REPO }}/${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
