@@ -9,12 +9,15 @@ on:
 
 env:
   APP_NAME: ${{ github.event.repository.name }}
-  DOCKERHUB_REPO: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+  DOCKERHUB: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
 
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
+
+      - name: Repo name to-lower-case
+        run: echo ${{ env.DOCKERHUB.lowercase }}
 
       - name: Checkout
         uses: actions/checkout@v2
