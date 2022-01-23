@@ -18,7 +18,7 @@ jobs:
     steps:
 
       - name: Repo name to-lower-case
-        run: echo ${{ env.DOCKERHUB.lowercase }}
+        run: echo DOCKERHUB_REPO=${{ env.DOCKERHUB.lowercase }} >> $GITHUB_ENV
 
       - name: Checkout
         uses: actions/checkout@v2
@@ -66,4 +66,4 @@ jobs:
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
 
-          tags: ${{ env.DOCKERHUB_REPO }}:${{ steps.meta.outputs.tags }}-${{ env.OS }}-${{ steps.time.outputs.time }}
+          tags: ${{ env.DOCKERHUB_REPO }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
