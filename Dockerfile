@@ -10,8 +10,8 @@ WORKDIR "/WardDashboard"
 RUN ls -lah
 RUN mvn clean package
 
-# Base image containing OpenJDK 8, maintained by RedHat
-FROM ubuntu:20.01
+# Running image, for supporting of ARM64v8
+FROM ubuntu:20.04
 
 # Copy jar and pom from builder image to working directory
 COPY --from=builder /WardDashboard/target/*.jar /ward.jar
