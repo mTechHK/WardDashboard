@@ -63,4 +63,4 @@ jobs:
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
 
-          tags: ${{ secrets.DOCKER_USERNAME }}/${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+          tags: ${{ steps.meta.outputs.labels }}/${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
