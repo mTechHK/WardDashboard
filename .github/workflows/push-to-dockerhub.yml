@@ -17,9 +17,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Repo name to-lower-case
-        run: echo DOCKERHUB_REPO=${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKERHUB.lowercase }} >> $GITHUB_ENV
-
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -66,4 +63,4 @@ jobs:
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
 
-          tags: ${{ env.DOCKERHUB_REPO }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
