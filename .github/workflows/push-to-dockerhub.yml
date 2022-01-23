@@ -10,6 +10,7 @@ on:
 env:
   APP_NAME: ${{ github.event.repository.name }}
   DOCKERHUB: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+  IMAGE_NAME: ${{ github.event.repository.name }}
 
 jobs:
   main:
@@ -37,6 +38,19 @@ jobs:
       - name: Generate App Version
         run: echo APP_VERSION=`git describe --tags --always` >> $GITHUB_ENV
 
+      - name: Extract Docker metadata
+        id: meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.REGISTRY }}/${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}
+
+      - name: Get Time
+        id: time
+        uses: nanzm/get-time-action@v1.1
+        with:
+          timeZone: 8
+          format: 'YYYY-MM-DD'
+
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
@@ -52,4 +66,4 @@ jobs:
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
 
-          tags: ${{ env.DOCKERHUB_REPO }}:${{ env.APP_VERSION }}
+          tags: ${{ env.DOCKERHUB_REPO }}:${{ steps.meta.outputs.tags }}-${{ env.OS }}-${{ steps.time.outputs.time }}
