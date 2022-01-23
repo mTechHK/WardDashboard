@@ -11,7 +11,7 @@ RUN ls -lah
 RUN mvn clean package
 
 # Running image, for supporting of ARM64v8
-FROM ubuntu:20.04
+FROM openjdk:17-ea-22-oraclelinux8
 
 # Copy jar and pom from builder image to working directory
 COPY --from=builder /WardDashboard/target/*.jar /ward.jar
