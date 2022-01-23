@@ -9,7 +9,7 @@ on:
 
 env:
   APP_NAME: ${{ github.event.repository.name }}
-  DOCKERHUB: ${{ secrets.DOCKER_USERNAME }}/${{ github.event.repository.name }}
+  DOCKERHUB: ${{ github.event.repository.name }}
   IMAGE_NAME: ${{ github.event.repository.name }}
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
     steps:
 
       - name: Repo name to-lower-case
-        run: echo DOCKERHUB_REPO=${{ env.DOCKERHUB.lowercase }} >> $GITHUB_ENV
+        run: echo DOCKERHUB_REPO=${{ secrets.DOCKER_USERNAME }}/${{ env.DOCKERHUB.lowercase }} >> $GITHUB_ENV
 
       - name: Checkout
         uses: actions/checkout@v2
