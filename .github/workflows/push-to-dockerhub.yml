@@ -74,4 +74,4 @@ jobs:
             APP_NAME=${{ env.APP_NAME }}
             APP_VERSION=${{ env.APP_VERSION }}
 
-          tags: ${{ env.DOCKERHUB_REPO }}:${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
+          tags: ${{ env.DOCKERHUB_REPO }}:${{ env.APP_VERSION }}
