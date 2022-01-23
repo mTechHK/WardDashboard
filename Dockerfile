@@ -17,10 +17,6 @@ FROM openjdk:17-ea-22-oraclelinux8
 COPY --from=builder /WardDashboard/target/*.jar /ward.jar
 COPY --from=builder /WardDashboard/pom.xml /pom.xml
 
-# Install dependences
-RUN apt-get update
-RUN apt-get install -y maven
-
 EXPOSE 4000
 EXPOSE 4001
 
