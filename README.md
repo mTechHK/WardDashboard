@@ -144,10 +144,10 @@ Ward 在所有主流的操作系統上運行良好，因為它使用 [OSHI](http
     1. 安裝 Docker (https://docs.docker.com/get-docker/)
     2. 開啓 Docker
     3. 使用終端機執行以下指令
-    docker run --name ward -p 4000:4000 -p <應用程序端口>:<應用程序端口> miraclecutelemon/warddashboard:main-<發佈日期/時間>
+    docker container run --name ward -p 4000:4000 -p <應用程序端口>:<應用程序端口> miraclecutelemon/warddashboard:<版本號>
     例子:
-    docker run --name ward -p 4000:4000 -p 4041:4041 miraclecutelemon/warddashboard:main-2021-12-28-20-39
-    將會拉取在2021-12-28 20:39 發佈的版本
+    docker container run --name ward -p 4000:4000 -p 4001:4001 miraclecutelemon/warddashboard:1.0.4
+    將會拉取在版本 1.0.4
     
     詳情請看 https://hub.docker.com/repository/docker/miraclecutelemon/warddashboard/
     5. 瀏覽器訪問 `localhost:8080`，在'應用端口'輸入上面的應用程序端口
