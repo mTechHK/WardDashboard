@@ -15,7 +15,7 @@ env:
 
 jobs:
   main:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
 
       # Login against a Docker registry except on PR
