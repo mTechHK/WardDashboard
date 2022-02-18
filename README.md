@@ -9,7 +9,7 @@
 > ![CodeFactor](https://img.shields.io/codefactor/grade/github/ItzMiracleOwO/WardDashboard/main?color=%23F44A6A&logo=codefactor&style=for-the-badge) ![commit](https://img.shields.io/github/last-commit/ItzMiracleOwO/WardDashboard?color=%23181717&logo=GitHub&style=for-the-badge)  
 > ![Scrutinizer](https://img.shields.io/scrutinizer/quality/g/ItzMiracleOwO/WardDashboard/main?style=for-the-badge) ![ScrutinizerBuilding](https://img.shields.io/scrutinizer/build/g/ItzMiracleOwO/WardDashboard/main?style=for-the-badge)  
 > ![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=Java) ![html](https://img.shields.io/badge/html-red?style=for-the-badge) ![css](https://img.shields.io/badge/css-blue?style=for-the-badge)  
-> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D4AMI3T)
+> [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D4AMI3T)  
 > [英文 | English](https://github.com/ItzMiracleOwO/WardDashboard/blob/main/en-README.md)  
 > [原作品 | Original work](https://github.com/B-Software/Ward)  
 
